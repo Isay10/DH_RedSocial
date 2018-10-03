@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'jallalla';
+    src: url('../font/SweetHipster.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f4f4f4;
+  font-family: arial;
+}
+
+.titulo-color{
+  color: #6b6b6b;
+}
+
+
+/* HEADER*/
+.nav-bg{
+  background: #fff;
+  border-bottom: 2px solid #a5a5a5;
+}
+
+.navbar-brand h1{
+  font-size: 2em;
+  color: #000;
+  letter-spacing: 10px;
+  margin-bottom: 0;
+  font-family: 'jallalla';
+}
+
+.nav-buscador input{
+  width: 400px;
+  border: 2px solid #a5a5a5;
+  border-radius: 8px;
+  padding: 4px 4px 4px 20px;
+}
+
+.nav-item i{
+  color: #6b6b6b;
+}
+
+.nav-text{
+  color: #6b6b6b;
+}
+/* FIN HEADER*/
+
+/****************/
+/* HEADER*/
+/* FIN HEADER*/
+/****************/
+
+/****************/
+/* PERFIL*/
+
+
+.perfil{
+  max-width: 1000px;
+  margin: auto;
+}
+
+.perfil-titulo{
+    border-bottom: 2px solid #a5a5a5;
+}
+
+.perfil-titulo h2{
+  text-align: center;
+  padding: 30px 0px;
+  color: #6b6b6b;
+}
+
+.d-perfil{
+    border-bottom: 2px solid #a5a5a5;
+}
+
+.dp-informacion{
+  padding: 30px 0px;
+}
+
+.dp-informacion div ul li{
+  list-style: none;
+  color: #6b6b6b;
+  letter-spacing: 4px;
+}
+
+
+/* FIN PERFIL*/
+/****************/
+
+/****************/
+/* LOGIN*/
+/* FIN LOGIN*/
+/****************/
+
+/****************/
+/* REGISTRO*/
+/* FIN REGISTRO*/
+/****************/
+
+/****************/
+/* TIMELINE*/
+/* FIN TIMELINE*/
+/****************/
+
+/****************/
+/* PREGUNTAS*/
+/* FIN PREGUNTAS*/
+/****************/
+
+
+/****************/
+/* FOOTER*/
+/* FIN FOOTER*/
+/****************/
+
+
+.post-desc ul li{
+  list-style: none;
+}
