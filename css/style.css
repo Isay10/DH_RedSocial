@@ -120,8 +120,13 @@ body{
  padding: 10px 0px;
 }
 
-.tl-buttons div .far{
+.tl-buttons div a .far{
   font-size: 2em;
+}
+
+.tl-buttons div a{
+  color: #000;
+  text-decoration: none;
 }
 
 .contactos a{
@@ -169,11 +174,6 @@ body{
   padding: 10px;
   margin-left: 10px;
 }
-
-
-
-
-
 
 
 
@@ -276,9 +276,11 @@ body{
   background: #fff;
 }
 
-.card-header{
+div.card-header{
   background: #fff;
+    cursor:pointer;
 }
+
 
 .card-header h5 button{
   color: #000;
@@ -296,10 +298,17 @@ body{
 /* NOTIFICACIONES*/
 
 .n-item{
+  cursor:pointer;
   background: #fff;
   padding: 30px 50px;
   margin-bottom: 10px;
   letter-spacing: 3px;
+}
+
+.n-item a {
+  color:#000;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /* FIN NOTIFICACIONES*/

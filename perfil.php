@@ -54,7 +54,6 @@ require('arrays/usuarios.php');
                       </div>
                     </div>
                   </div>
-
                 </div>
             </div>
           </div>
@@ -75,10 +74,10 @@ require('arrays/usuarios.php');
                 </div>
                 <div class="tl-buttons">
                   <div class="">
-                    <i class="far fa-heart"></i>
+                    <a href="#"> <i class="far fa-heart"></i></a>
                   </div>
                   <div class="">
-                    <i class="far fa-comment"></i>
+                    <a href="#"> <i class="far fa-comment"></i></a>
                   </div>
                 </div>
               </div>
@@ -90,10 +89,10 @@ require('arrays/usuarios.php');
                 </div>
                 <div class="tl-buttons">
                   <div class="">
-                    <i class="far fa-heart"></i>
+                    <a href="#"> <i class="far fa-heart"></i></a>
                   </div>
                   <div class="">
-                    <i class="far fa-comment"></i>
+                    <a href="#"> <i class="far fa-comment"></i></a>
                   </div>
                 </div>
               </div>
@@ -105,10 +104,10 @@ require('arrays/usuarios.php');
                 </div>
                 <div class="tl-buttons">
                   <div class="">
-                    <i class="far fa-heart"></i>
+                    <a href="#"> <i class="far fa-heart"></i></a>
                   </div>
                   <div class="">
-                    <i class="far fa-comment"></i>
+                    <a href="#"> <i class="far fa-comment"></i></a>
                   </div>
                 </div>
               </div>
@@ -120,10 +119,10 @@ require('arrays/usuarios.php');
                 </div>
                 <div class="tl-buttons">
                   <div class="">
-                    <i class="far fa-heart"></i>
+                    <a href="#"> <i class="far fa-heart"></i></a>
                   </div>
                   <div class="">
-                    <i class="far fa-comment"></i>
+                    <a href="#"> <i class="far fa-comment"></i></a>
                   </div>
                 </div>
               </div>
