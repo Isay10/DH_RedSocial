@@ -71,7 +71,7 @@ if($_GET){
                     <label class="form-check-label" for="contrasena">Recordarme</label>
                   </div>
                   <div class="text-center">
-                    <button type="submit" class="btn btn-outline-light">Iniciar Sesion</button>
+                    <button type="submit" class="btn btn-light">Iniciar Sesion</button>
                   </div>
                   <span class="text-danger">
                     <?php echo $errorSesion; ?>

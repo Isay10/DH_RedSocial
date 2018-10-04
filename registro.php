@@ -131,9 +131,7 @@ if( $_GET){
                   <h2>Descripcion</h2>
                 </div>
                 <div class="d-descripcion">
-                  <p>Aliquid at maiores deserunt voluptates nam? Ad facilis
-                    voluptatem fugit illum praesentium earum iste deleniti
-                    quia quibusdam. Sit nulla, voluptatem atque qui!</p>
+                  <p>Bienvenido a Jallalla, una red social dedicada a conocer gente a traves de hermosos paisajes!</p>
                 </div>
           </article>
         </div>
