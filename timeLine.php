@@ -17,24 +17,25 @@ $posteos = Post::getPosts();
 
 ?>
   <!-- PRINCIPAL-->
-  <main class="perfil">
-    <!-- PERFIL SUB MENU-->
-    <section class="sub-menu-perfil bg-dark py-3">
+  <main class="perfil pt-4">
+    <section class="tl-form py-3">
       <div class="">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Muro</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Fotos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">contactos</a>
-          </li>
-        </ul>
+        <form class="" action="" method="POST">
+          <div class="">
+            <input type="text" name="" value="" placeholder="Ingrese su comentario..">
+          </div>
+          <div class="photo btn btn-outline-dark">
+            <label for="tl-post">
+              <i class="far fa-image"></i> Imagen
+            </label>
+            <input id="tl-post" class="d-none" type="FILE" name="tl-post" value="">
+          </div>
+          <div class="publicar">
+            <button class="btn btn-dark" type="submit" name="" >Publicar</button>
+          </div>
+        </form>
       </div>
     </section>
-    <!-- FIN PERFIL SUB MENU-->
     <!-- PERFIL TIMELINE-->
     <section class="tl-perfil py-3">
       <div class="container">
@@ -55,12 +56,22 @@ $posteos = Post::getPosts();
                 <!--posteo imagen-->
                 <!--posteo descripcion-->
                 <div class="post-desc p-2">
-                  <ul>
+                  <ul class="mb-0">
                     <li>
-                      <h3><?php echo $post['title']; ?></h3>
+                      <h3><i class="fas fa-map-pin"></i> <?php echo $post['title']; ?></h3>
                     </li>
                     <li>
                       <p><?php echo $post['description']; ?></p>
+                    </li>
+                    <li>
+                      <div style="border-top:1px solid #a5a5a5;border-bottom:1px solid #a5a5a5;" class="tl-buttons bg-light">
+                        <div class="">
+                          <i class="far fa-heart"></i>
+                        </div>
+                        <div class="">
+                          <i class="far fa-comment"></i>
+                        </div>
+                      </div>
                     </li>
                   </ul>
                 </div>

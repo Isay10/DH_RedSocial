@@ -44,18 +44,12 @@ if($_GET){
 ?>
 
   <main class="my-3">
-    <!-- LOGO -->
-    <section class="p-5">
-      <div class="text-center">
-        <img src="https://via.placeholder.com/350x150" alt="">
-      </div>
-    </section>
-    <!-- FIN LOGO-->
+
     <section>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <article class="login bg-dark text-light w-md-50 m-auto p-2 p-md-5">
+            <article class="login w-50 m-auto ">
               <div>
                  <form action="login.php" method="GET" enctype="multipart/form-data">
                   <div class="form-group">

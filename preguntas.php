@@ -5,13 +5,18 @@ $titulo ="Red Social - Preguntas";
 require('header.php');
 
 ?>
-  <!-- LOGO -->
+  <!-- LOGO
   <section class="logo p-5">
     <div class="text-center">
-      <img src="https://via.placeholder.com/350x150" alt="">
+      <img src="img/logoBanner.png" alt="">
     </div>
   </section>
-  <!-- FIN LOGO-->
+   FIN LOGO-->
+   <!-- TITULO -->
+   <section class="perfil-titulo">
+     <h2 class="w-50 m-auto"> <i class="far fa-question-circle"></i> Preguntas</h2>
+   </section>
+   <!-- FIN TITULO -->
   <main class="preguntas my-5">
     <div class="container">
       <div class="row">
@@ -19,55 +24,39 @@ require('header.php');
           <div>
             <div class="p-titulo jumbotron jumbotron-fluid mb-5">
               <div class="container">
-                <h1 class="display-4">Preguntas y Respuestas Frecuentes</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space
-                   its parent.</p>
+                <h1 class="display-4 text-center">Preguntas y Respuestas Frecuentes</h1>
+                <p class="lead">Si tenés alguna pregunta que no esté acá, envíanos un e-mail a contacto@jallalla.com</p>
               </div>
             </div>
 
             <div class="accordion" id="accordionExample">
               <div class="card mb-3">
                 <div class="card-header" id="headingOne">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
-                      Collapsible Group Item #1
-                    </button>
+                  <h5 class="mb-0 titulo-color" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                    ¿Que puedo hacer en esta Red Social?
                   </h5>
                 </div>
 
                 <div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                    Jallalla es un servicio que permite que los grupos de amigos, familiares se comuniquen y estén en contacto a través de imagenes de distintas ubicaciones
+                    donde se pueden ver paisajes diversos. Las personas pueden publicar fotos, videos y texto. Estos mensajes se publican en tu perfil, se envían
+                    a tus amigos y también se pueden encontrar a través del buscador.
                   </div>
                 </div>
               </div>
               <div class="card mb-3">
                 <div class="card-header" id="headingOne">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
-                      Collapsible Group Item #1
-                    </button>
+                  <h5 class="mb-0 titulo-color"  data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+
+                      ¿Necesito algo en especial para usar el servicio?
+
                   </h5>
                 </div>
 
                 <div id="collapseOne2" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3">
-                <div class="card-header" id="headingOne">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
-                      Collapsible Group Item #1
-                    </button>
-                  </h5>
-                </div>
-
-                <div id="collapseOne3" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                    Todo lo que necesitas para usar Jallalla es una conexión a internet o un teléfono móvil. ¡Únete a nosotros! Una vez que te hayas registrado, podrás comenzar a buscar y a conectarte con cuentas cuyos perfiles te interesen. Y nosotros también te recomendaremos cuentas estupendas que te pueden gustar.
                   </div>
                 </div>
               </div>

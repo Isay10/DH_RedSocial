@@ -33,7 +33,7 @@
          <h1 class="d-inline-block ">Jallalla!</h1>
        </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars"></i>
       </button>
       <div class="nav-buscador">
         <input type="text" name="" value="" placeholder="Buscar en Jallalla!">
@@ -41,7 +41,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item ">
-            <a class="nav-link" href="login.php">
+            <a class="nav-link" href="timeline.php">
             <div class="">
               <i class="fas fa-globe"></i>
             </div>
@@ -51,7 +51,7 @@
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="login.php">
+            <a class="nav-link" href="explorar.php">
             <div class="">
               <i class="far fa-compass"></i>
             </div>
@@ -61,7 +61,7 @@
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="login.php">
+            <a class="nav-link" href="recuerdos.php">
               <div class="">
                 <i class="fas fa-camera-retro"></i>
               </div>
@@ -71,17 +71,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="preguntas.php">
-              <div class="">
-                <i class="far fa-heart"></i>
-              </div>
-              <div class="nav-text">
-                Deseos
-              </div>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="preguntas.php">
+            <a class="nav-link" href="notificaciones.php">
               <div class="">
                 <i class="far fa-bell"></i>
               </div>
@@ -103,7 +93,7 @@
           <li class="nav-item">
             <a class="nav-link" href="preguntas.php">
             <div class="">
-              <i class="far fa-user"></i>
+              <i class="far fa-question-circle"></i>
             </div>
             <div class="nav-text">
               Preguntas

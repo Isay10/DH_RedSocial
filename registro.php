@@ -66,18 +66,12 @@ if( $_GET){
 
 
 ?>
-  <!-- LOGO -->
-  <section class="p-5">
-    <div class="text-center">
-      <img src="https://via.placeholder.com/350x150" alt="">
-    </div>
-  </section>
-  <!-- FIN LOGO-->
+
   <main class="my-3">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
-          <article class="registrarse bg-dark text-light p-5">
+          <article class="registrarse">
              <form action="registro.php" method="GET" enctype="multipart/form-data">
               <div class="form-group d-inline-block mr-3">
                 <label for="nombre">Nombre</label>
@@ -126,7 +120,7 @@ if( $_GET){
                 <label class="form-check-label" for="recordarme">Recordarme</label>
               </div>
               <div class="text-center">
-                <button type="submit" class="btn btn-outline-light">Registrarse</button>
+                <button type="submit" class="btn btn-dark">Registrarse</button>
               </div>
             </form>
           </article>

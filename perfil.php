@@ -19,11 +19,11 @@ require('arrays/usuarios.php');
   <main class="perfil">
     <!-- TITULO -->
     <section class="perfil-titulo">
-      <h2 class="">Mis Recuerdos</h2>
+      <h2 class=""><i class="far fa-user"></i> Mi Perfil</h2>
     </section>
     <!-- FIN TITULO -->
     <!-- PERFIL DATOS-->
-    <section class="d-perfil m-auto py-3">
+    <section class="d-perfil py-3">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -31,22 +31,30 @@ require('arrays/usuarios.php');
                 <div class="col-12 col-md-4">
                   <div class="dp-imagen text-center">
                     <div>
-                      <img src="https://via.placeholder.com/200x200" alt="">
+                      <img src="img/fotoPerfil.jpg" alt="">
                     </div>
                   </div>
                 </div>
                 <div class="col-12 col-md-8 ">
-                  <div class="dp-informacion">
-                    <div class="">
-                      <ul class=" d-inline-block ">
-                        <li>Nombre: Jhon</li>
-                        <li>Apellido: Salchijhon</li>
-                        <li>Edad: 17</li>
-                        <li>Instrumento: Guitarra</li>
-                        <li>Banda: Ninguna/ En Busqueda</li>
-                      </ul>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="dp-informacion">
+                        <div class="">
+                          <ul class=" d-inline-block ">
+                            <li>Usuario: Cristhian.Pabon</li>
+                            <li>Nombre: Cristhian</li>
+                            <li>Apellido: Pabon</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="contactos">
+                        <a href="listaAmigos.php"><i class="fas fa-users"></i> Lista de Amigos</a>
+                      </div>
                     </div>
                   </div>
+
                 </div>
             </div>
           </div>
@@ -59,53 +67,68 @@ require('arrays/usuarios.php');
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="w-50 m-auto">
-              <!--posteo-->
-              <div class="post bg-light mb-2 p-2">
-                <!--posteo imagen-->
-                <div class="post-img">
+           <div class="tl-posts">
+              <!-- POST-->
+              <div class="tl-post">
+                <div class="tl-img">
+                  <img  src="img/post/Cochabamba.jpg" alt="">
+                </div>
+                <div class="tl-buttons">
                   <div class="">
-                    <img class="w-100 m-auto" src="https://via.placeholder.com/350x250" alt="">
+                    <i class="far fa-heart"></i>
+                  </div>
+                  <div class="">
+                    <i class="far fa-comment"></i>
                   </div>
                 </div>
-                <!--posteo imagen-->
-                <!--posteo descripcion-->
-                <div class="post-desc p-2">
-                  <ul>
-                    <li>
-                      <h3>Titulo Descripcion</h3>
-                    </li>
-                    <li>
-                      <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
-                    </li>
-                  </ul>
-                </div>
-                <!--fin posteo descripcion-->
               </div>
-              <!--fin posteo-->
-              <!--posteo-->
-              <div class="post bg-light mb-2 p-2">
-                <!--posteo imagen-->
-                <div class="post-img">
+              <!-- FIN POST-->
+              <!-- POST-->
+              <div class="tl-post">
+                <div class="tl-img">
+                  <img  src="img/post/Copacabana.jpg" alt="">
+                </div>
+                <div class="tl-buttons">
                   <div class="">
-                    <img class="w-100" src="https://via.placeholder.com/350x250" alt="">
+                    <i class="far fa-heart"></i>
+                  </div>
+                  <div class="">
+                    <i class="far fa-comment"></i>
                   </div>
                 </div>
-                <!--posteo imagen-->
-                <!--posteo descripcion-->
-                <div class="post-desc p-2">
-                  <ul>
-                    <li>
-                      <h3>Titulo Descripcion</h3>
-                    </li>
-                    <li>
-                      <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
-                    </li>
-                  </ul>
-                </div>
-                <!--fin posteo descripcion-->
               </div>
-              <!--fin posteo-->
+              <!-- FIN POST-->
+              <!-- POST-->
+              <div class="tl-post">
+                <div class="tl-img">
+                  <img  src="img/post/Lapaz.jpg" alt="">
+                </div>
+                <div class="tl-buttons">
+                  <div class="">
+                    <i class="far fa-heart"></i>
+                  </div>
+                  <div class="">
+                    <i class="far fa-comment"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- FIN POST-->
+              <!-- POST-->
+              <div class="tl-post">
+                <div class="tl-img">
+                  <img  src="img/post/Sucre.jpg" alt="">
+                </div>
+                <div class="tl-buttons">
+                  <div class="">
+                    <i class="far fa-heart"></i>
+                  </div>
+                  <div class="">
+                    <i class="far fa-comment"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- FIN POST-->
+
             </div>
           </div>
         </div>
